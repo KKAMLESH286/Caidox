@@ -3,36 +3,93 @@
 <title>Unraveling The Future</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
 <link href="../static/main.css" rel="stylesheet">
 <link href="../static/main1.css" rel="stylesheet">
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image: url('../static/landscape.jpg');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-</style>
 <body>
+	<header>
+		<h1 class='logo'>Caidox</h1>
+		<input type="checkbox" id="nav-toggle" class="nav-toggle">
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    Logo
-  </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
-    <hr class="w3-border-white" style="margin:auto;width:50%">
-    <p class="w3-center w3-animate-bottom" >
-      <script src="../static/script.js"></script>
-    </p>
-  </div>
-  
-  <div class="w3-display-bottomleft w3-padding-large">
-    Powered by Ash & Kam
-  </div>
+<!-- Navigation bar -->
+		<nav>
+		  <ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Team</a></li>
+			<li><a href="#">Contact</a></li>
+		  </ul>
+	   </nav>
+	   <label for="nav-toggle" class="nav-toggle-label">
+		 <span></span>
+	   </lable>
+	</header>
+
+<!-- Main body -->
+<div class="main-container">
+	<div class="item one">
+		<img id = "img1" src="../static/pee4.png" style ="size: 100px;">
+	</div>
+	<div class="item two">
+		<h2 class="main-text">Hi there! </br> We are working on this website as a side project and going to launch it very soon. Stay tuned stay safe! </h2>
+		<hr class="main-text-separater" style="margin:auto;width:50%">
+	</div>
+		<!-- <hr class="main-text-separater" style="margin:auto;width:50%">
+		<p class="main-text-time-left" >
+			<script src="../static/script.js"></script>
+		</p> -->
 </div>
 
+<!-- Jumbotran -->
+<div class="container-fluid">
+	<div class="row jumbotrun">
+		<div class="col-xs=12 col-sm-12 col-md-8 col-lg-9 col-xl-10">
+			<p class="lead"> "The desire to create is one of the deepest yearnings of the human soul." 
+				-- Dieter F. Uchtdorf</p>
+		</div>
+	</div> 
+</div>
+
+<!-- About Us -->
+<div class="sales-points">
+	<div class="sales-point">
+	  <h3>Lorem Ipsum 1</h3>
+	  <p>Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.</p>
+	</div>
+	<div class="sales-point">
+	  <h3>Lorem Ipsum 2</h3>
+	  <p>Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.</p>
+	</div>
+	<div class="sales-point">
+	  <h3>Lorem Ipsum 3</h3>
+	  <p>Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.</p>
+	</div>
+</div>
+
+<!-- Contact Us -->
+<div class="contact">
+	<h4> Contact Us</h4>
+</div>
+<div class="contact">
+
+	<a class="contactus" href="https://www.facebook.com/kkamlesh89/"><img id = "img3" src="../static/facebook.svg"> </a>
+	<a class="contactus" href="https://www.instagram.com/kkamlesh286/"><img id = "img3" src="../static/instagram.svg"> </a>
+	<a class="contactus" href="https://twitter.com/Kamlesh94962758"><img id = "img3" src="../static/twitter1.svg"> </a>
+	<a class="contactus" href="https://github.com/KKAMLESH286"><img id = "img3" src="../static/github.svg"> </a>
+</div>
+
+<div class="contact">
+	<h4> made with ❤️ by Kam</h4>
+</div>
+<div class="contact">
+	<h4> All rights reserved ©2020</h4>
+</div>
+  
 </body>
 </html>
