@@ -307,7 +307,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 100vh;
   justify-content: space-around;
 }
 
