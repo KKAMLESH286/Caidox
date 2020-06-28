@@ -223,6 +223,7 @@ nav a:hover {
   justify-content: space-around;
   flex-direction: column;
   background-color: white;
+  border-radius: .3rem;
 }
 
 @media (min-width: 40rem) {
@@ -258,6 +259,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   background: #17A392;
+  
 }
 
 .contactus {
@@ -311,6 +313,7 @@ nav a:hover {
   height: 60vh;
   /* justify-content: space-around; */
   margin: auto;
+  
 }
 
 .flip-card {
@@ -320,6 +323,7 @@ nav a:hover {
   height: 100%;
   max-height: 250px;
   perspective: 1000px;
+  
 }
 .flip-card .inner {
   position: relative;
@@ -339,6 +343,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border-radius: .8rem;
 }
 .flip-card .inner .front {
   background-color: #AE231E;
@@ -365,4 +370,8 @@ h5 {
     justify-items: center;
     height: 90vh;
   }
+}
+
+.team {
+  border-radius: .8rem;
 }

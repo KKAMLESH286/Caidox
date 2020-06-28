@@ -20,10 +20,10 @@
 <!-- Navigation bar -->
 		<nav>
 		  <ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Team</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#team">Team</a></li>
+			<li><a href="#contact">Contact</a></li>
 		  </ul>
 	   </nav>
 	   <label for="nav-toggle" class="nav-toggle-label">
@@ -32,7 +32,7 @@
 	</header>
 
 <!-- Main body -->
-<div class="main-container">
+<div class="main-container" id="home">
 	<div class="item one">
 		<img id = "img1" src="../static/pee.png" style ="size: 100px;">
 	</div>
@@ -56,7 +56,7 @@
 </div>
 
 <!-- About Us -->
-<div class="sales-points">
+<div class="sales-points" id="about">
 	<div class="sales-point">
 	  <h3>Our Mission</h3>
 	  <p>Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.</p>
@@ -72,11 +72,11 @@
 </div>
 <!-- Team -->
 
-<div class="container">
+<div class="container" id="team">
 	<div class="flip-card">
 	  <div class="inner">
 		<div class="front">
-		  <img src="../static/img2.jpg" style="width:230px;height:230px;" />
+		  <img class = "team" src="../static/img2.jpg" style="width:230px;height:230px;" />
 		</div>
 		<div class="back">
 		  <h5>Kamlesh Panwar</h5>
@@ -88,7 +88,7 @@
 	<div class="flip-card">
 		<div class="inner">
 		  <div class="front">
-			<img src="../static/img6.jpeg" style="width:230px;height:230px;" />
+			<img class = "team" src="../static/img6.jpeg" style="width:230px;height:230px;" />
 		  </div>
 		  <div class="back">
 			<h5>Ashwani Bhardwaj</h5>
@@ -99,7 +99,7 @@
 	  </div>
 </div>
 <!-- Contact Us -->
-<div class="contact">
+<div class="contact" id="contact">
 	<h4> Contact Us</h4>
 </div>
 <div class="contact">
