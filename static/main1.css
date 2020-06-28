@@ -25,7 +25,8 @@ html, body {
 }
 
 :root {
-  --background: rgba(85, 214, 170, .85);
+  /* --background: rgb(85, 214, 171); */
+  --background: #17A392;
 }
 
 *, *::before, *::after {
@@ -40,6 +41,8 @@ header {
   position: fixed;
   z-index: 999;
   width: 100%;
+  border-bottom-left-radius: .3rem;
+  border-bottom-right-radius: .3rem;
 }
 
 h1 {
@@ -112,7 +115,6 @@ nav a {
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
-  text-transform: uppercase;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
@@ -305,7 +307,7 @@ h2 {
 }
 
 .flip-card .inner .front {
-  background-color: #AE231E;
+  background-color: #F2DB22;
 }
 
 .flip-card .inner .back {
@@ -338,7 +340,9 @@ h5 {
 
 /* Contact us */
 .contact-us-container{
-  background: #17A392
+  background: #17A392;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
 }
 
 .contact {
