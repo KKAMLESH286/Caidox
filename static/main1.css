@@ -196,6 +196,7 @@ nav a:hover {
   justify-content: space-around;
   flex-direction: row;
   align-items: flex-start; 
+  
 }
 
 @media (min-width: 40rem) {
@@ -307,7 +308,7 @@ h2 {
 }
 
 .flip-card .inner .front {
-  background-color: #F2DB22;
+  background-color: #17A392;
 }
 
 .flip-card .inner .back {
@@ -336,6 +337,7 @@ h5 {
 
 .team {
   border-radius: .8rem;
+  border: 1px solid black;
 }
 
 /* Contact us */
